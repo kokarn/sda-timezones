@@ -1,4 +1,6 @@
 sda-timezones
 =============
 
-Timezones for SpeedDemoArhives Awesome Games Done Quick
+Timezones for SpeedDemoArchives Awesome Games Done Quick.
+
+Usually available at http://speeddemosarchive.com/marathon/
