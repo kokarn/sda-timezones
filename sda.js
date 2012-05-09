@@ -70,9 +70,16 @@ $(document).ready(function () {
 
     var d = new Date(),
         gmtHours = -d.getTimezoneOffset() / 60,
-        value;
+        value,
+        hoursString;
 
-    $('#currentTimezone').text(gmtHours);
+    if (gmtHours > 0) {
+        hoursString = '+' + gmtHours;
+    } else {
+        hoursString = gmtHours;
+    }
+
+    $('#currentTimezone').text(hoursString);
 
     $('#changeTime').change(function () {
         changeTime();
