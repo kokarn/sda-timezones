@@ -84,7 +84,7 @@
         <option value="22">+22</option>
         <option value="23">+23</option>
     </select>
-    Your timezone: <span id="currentTimezone"></span>';
+    Your timezone: UTC <span id="currentTimezone"></span>';
 
     $page = str_replace( '<div id="schedule">', $selector.'<div id="schedule">', $page );
 
