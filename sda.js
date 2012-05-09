@@ -4,7 +4,7 @@ function changeTime() {
 
     'use strict';
 
-    var day = $('.month').first().parent('tr').text().match(/\d{1,2}/),
+    var day = parseInt($('.month').first().parent('tr').text().match(/\d{1,2}/), 10),
         dayUpdated = false,
         offset = defaultOffset + parseInt($('#changeTime').val(), 10);
 
