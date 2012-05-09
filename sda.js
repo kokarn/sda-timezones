@@ -1,4 +1,5 @@
-var defaultOffset = 5;
+var defaultOffset = 5,
+    autoSet = true; // Change to not set the timezone on page load
 
 function changeTime() {
 
@@ -85,6 +86,11 @@ $(document).ready(function () {
 
         changeTime();
 
+    } else if ( autoSet ){
+
+        $('option[value=' + gmtHours + ']').attr('selected', 'selected');
+
+        changeTime();
     }
 
 });
