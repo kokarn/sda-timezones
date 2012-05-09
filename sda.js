@@ -1,5 +1,4 @@
 var timezone = parseInt('-5', 10),
-    offset = 0,
     autoSet = true, // Change to not set the timezone on page load
     firstDay,
     isOriginal = true;
@@ -143,7 +142,7 @@ $(document).ready(function () {
 
         changeTime();
 
-    } else if ( autoSet ){
+    } else if (autoSet) {
 
         $('option[value=' + gmtHours + ']').attr('selected', 'selected');
 
