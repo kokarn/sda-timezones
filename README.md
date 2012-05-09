@@ -1,9 +1,9 @@
 sda-timezones
 =============
 
-Timezones for SpeedDemosArchive's Awesome Games Done Quick.
+Timezones for SpeedDemosArchive's Awesome Games Done Quick / Summer Games Done Quick.
 
-Awesome games done quick is a thing Speed Demos Archive does a couple of times a year to benefit different charities.
+Awesome Games Done Quick / Summer Games Done Quick is a thing Speed Demos Archive (http://speeddemosarchive.com) does a couple of times a year to benefit different charities.
 
 This is just a simple patch to add a timezone selector but keep everything else intact.
 
